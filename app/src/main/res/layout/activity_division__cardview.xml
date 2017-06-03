@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.souma.vedamagic.Division_Cardview"
+    android:background="@drawable/background"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <android.support.v7.widget.CardView
+                android:id="@+id/div1"
+                android:layout_height="165dp"
+                android:layout_width="310dp"
+                android:elevation="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="25dp"
+                android:onClick="card_click3"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/cardview_light_background"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Divison of two numbers"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:textAlignment="center"
+                        android:layout_marginStart="35dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Tutorial that shows how to perform divison of two numbers"
+                        android:layout_marginTop="65dp"
+                        android:textAlignment="center"
+                        android:textSize="22sp"
+                        android:textColor="#000"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

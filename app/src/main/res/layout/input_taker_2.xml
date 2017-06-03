@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/input_taker_parent"
+    android:background="#ffff"
+    android:padding="10dp">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_input"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="40sp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/number1"
+        android:layout_gravity="right"
+        android:layout_marginBottom="20dp"
+        android:text="10000"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus"
+            android:layout_gravity="right|bottom"
+            />
+
+        <EditText
+            android:id="@+id/number2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_input"
+            android:hint="Second No"
+            android:textColor="@android:color/holo_green_light"
+            android:textColorHint="@android:color/white"
+            android:textSize="40sp"
+            android:layout_gravity="right|bottom"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="_____________________________________"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_gravity="right"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_input"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="40sp"
+        android:hint="Result"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/result" />
+</LinearLayout>

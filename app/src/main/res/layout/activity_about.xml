@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.souma.vedamagic.About"
+    android:background="#ffffff"
+    >
+    >
+    <include layout="@layout/drawer_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content"></include>
+    <SeekBar
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_seekbar"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="290dp"
+        android:visibility="invisible"
+        />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="200dp"
+        android:text="Show"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:id="@+id/show_seek"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mytoolbar"
+        >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/icon"
+        android:layout_marginStart="155dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VedaMagic Version 1.0"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="65dp"
+        android:textSize="20sp"
+        android:layout_marginStart="85dp"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        />
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

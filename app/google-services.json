@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "507681868717",
+    "firebase_url": "https://vedamagic-1739c.firebaseio.com",
+    "project_id": "vedamagic-1739c",
+    "storage_bucket": "vedamagic-1739c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507681868717:android:bf02ae1b6cd06842",
+        "android_client_info": {
+          "package_name": "com.example.souma.vedamagic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507681868717-u7j94lvj8gcrvp8k4pvuaoqo60cmeijj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.souma.vedamagic",
+            "certificate_hash": "d7a0761036824fb9fb49fea69111c58c880c9a41"
+          }
+        },
+        {
+          "client_id": "507681868717-7qlma4btcto5frd8tl8falc43ujb634v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVlUqm9mbiSkBHq5U-P50IHqUaIplqkns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507681868717-7qlma4btcto5frd8tl8falc43ujb634v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
